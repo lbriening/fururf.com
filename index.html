@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>FURU'R'F'</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link href="/images/favicon.png" rel="shortcut icon" />
+    <link rel="stylesheet" href="lib/css/reveal.css">
+    <link rel="stylesheet" href="lib/css/theme/default.css" id="theme">
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section id="cube">
+          <a href="#/solved">
+            <img src="images/cube.png" />
+          </a>
+        </section>
+        <section id="solved">
+          <a href="#/cube">
+            <img src="images/solved.png" />
+          </a>
+        </section>
+      </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="lib/js/reveal.min.js"></script>
+    <script>
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: false,
+        progress: false,
+        history: false,
+        center: true,
+        theme: 'sky', // available themes are in /css/theme
+        transition: 'cube'
+      });
+    </script>
+  </body>
+</html>
